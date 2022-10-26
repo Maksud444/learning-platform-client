@@ -2,6 +2,7 @@ import React from 'react';
 import { useContext } from 'react';
 import  { AuthContext } from '../../Context/UserContext';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import './Register.css'
 
 const Register = () => {
     let location=useLocation()
@@ -32,11 +33,11 @@ const Register = () => {
        <div>
         <h1 className='text-3xl text-slate-900 text-center my-5'>Register Here To Enroll Courses</h1>
           <p className='text-center'>Already Have an Account <Link className='text-yellow-400' to="/login">Login</Link></p>
-         <form onSubmit={handleSubmit} className='flex flex-col items-center justify-between   py-10 space-y-4 bg-slate-400 text-slate-900 mx-auto rounded w-1/2 my-2'>
-                 <span>FULL NAME:</span><input name='name' type="text" placeholder="Full Name" className="input  input-bordered input-info w-full max-w-xs text-white" />
-                 <span>EMAIL:</span><input name="email" type="email" placeholder="Enter Email" className="input  input-bordered input-info w-full max-w-xs text-white" />
-                 <span>PASSWORD:</span><input name='password' type="password" placeholder="Enter Password" className="input  input-bordered input-info w-full max-w-xs text-white" />
-                  <span>Photo URL</span> <input name='photoURL' type="text" placeholder="Enter PhotoURL" className="input  input-bordered input-info w-full max-w-xs text-white" />
+         <form onSubmit={handleSubmit} className='flex flex-col items-center justify-between register-bg  py-10 space-y-4 bg-slate-400 text-slate-900 mx-auto rounded w-1/2 my-2'>
+                 <span>FULL NAME:</span><input name='name' type="text" placeholder="Full Name" className="input  input-bordered input-info w-full max-w-xs text-black" />
+                 <span>EMAIL:</span><input name="email" type="email" placeholder="Enter Email" className="input  input-bordered input-info w-full max-w-xs text-black" />
+                 <span>PASSWORD:</span><input name='password' type="password" placeholder="Enter Password" className="input  input-bordered input-info w-full max-w-xs text-black" />
+                  <span>Photo URL</span> <input name='photoURL' type="text" placeholder="Enter PhotoURL" className="input  input-bordered input-info w-full max-w-xs text-black" />
                   <button className='btn btn-info' type='submit'>Register</button>
         </form>
        </div>

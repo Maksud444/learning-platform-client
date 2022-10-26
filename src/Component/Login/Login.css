@@ -1,0 +1,6 @@
+.bg-login{
+    background-image: linear-gradient(to right bottom, #6f40db, #5e42d9, #4a43d6, #3244d3, #0045cf);
+}
+.btn-login{
+    background-image: linear-gradient(to right bottom, #40dba5, #00c1c5, #00a1e6, #007bf0, #0045cf);
+}

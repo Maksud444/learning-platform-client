@@ -24,7 +24,7 @@ const Courses = () => {
                     <p className='font-bold'>Instructor:  {course.instructor_name}</p>
                     <p className='my-2'>Rating:{course.course_rating}</p>
                     <p>Enrolled:{course.enrolled}</p>
-                    <img src={course.instructor_image} className="w-48 mx-auto" alt=""/> 
+                    <img src={course.instructor_image} className="w-100  mx-auto" alt=""/> 
                     <p className='my-2 font-bold'>Description:{course.course_description}</p>
             </div>
             

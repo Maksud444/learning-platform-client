@@ -6,7 +6,7 @@ import { DarkModeContext } from '../../Context/DarkContext';
 import { AuthContext } from '../../Context/UserContext';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
-
+import './Header.css'
 
 
 
@@ -39,7 +39,7 @@ const Header = () => {
         <div>
 
 
-<div className="navbar bg-base-100">
+<div className="navbar bg-base-100 head-bg">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -57,8 +57,8 @@ const Header = () => {
     </div>
     <Link to="/" className="btn btn-ghost normal-case text-xl "><p className='mr-2'>E-Learning</p><FaCode className='text-3xl'/></Link>
   </div>
-  <div className="navbar-center hidden lg:flex">
-    <ul className={`menu menu-horizontal p-0 ${dark?"bg-white text-black":"bg-base-100 text-white" }`}>
+  <div className="navbar-center hidden lg:flex ">
+    <ul className={`menu menu-horizontal p-0 ${dark?" text-black":"bg-base-100 text-white" }`}>
      <li><Link to="/login" className="btn btn-ghost normal-case text-xl">Login</Link></li>
      <li><Link to="/courses" className="btn btn-ghost normal-case text-xl">Courses</Link></li>
      <li><Link to="/faq" className="btn btn-ghost normal-case text-xl">FAQ</Link></li>
