@@ -1,12 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 import { RouterProvider } from 'react-router-dom';
-import { routes } from './Routes/Route/Route';
+import './App.css';
+import {router} from "./routes/routes/routes";
 
+import { useContext } from 'react';
+import { DarkModeContext } from './Context/DarkContext';
+import { Toaster } from 'react-hot-toast';
 function App() {
+  const [,dark]=useContext(DarkModeContext);
   return (
-    <div className="App">
-      <RouterProvider router={routes}></RouterProvider>
+    <div className={`App ${dark ? "bg-white text-black" :"bg-base-100"}      `}>
+      <RouterProvider router={router}></RouterProvider>
+      <Toaster></Toaster>
+        
     </div>
   );
 }
