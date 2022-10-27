@@ -25,11 +25,11 @@ const Faq = () => {
             FAQ
           </span>
           <h2
-            class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]"
+            class="mb-4 text-3xl font-bold text-white sm:text-4xl md:text-[40px]"
           >
             Any Questions? Look Here
           </h2>
-          <p class="text-base text-body-color">
+          <p class="text-base text-body-color text-white">
             There are many variations of passages of Lorem Ipsum available but
             the majority have suffered alteration in some form.
           </p>

@@ -13,7 +13,7 @@ import './Header.css'
 
 const Header = () => {
    const nav=useNavigate();
-  const {user,logOut}=useContext(AuthContext);
+ const {user,logOut} = useContext(AuthContext)
    const [setDark,dark]=useContext(DarkModeContext);
    
    const handleDark=()=>{
