@@ -53,7 +53,7 @@ const UserContext = ({children}) => {
 
 
 
-    const authInfo={createUser,signIn,logOut,user,handleGithubSignIn,handleGoogleSignIn,handleUpdateProfile,loading,setLoading}
+    const authInfo={createUser,signIn,logOut,user,setUser,handleGithubSignIn,handleGoogleSignIn,handleUpdateProfile,loading,setLoading}
     return (
         <div>
                <AuthContext.Provider value={authInfo}>
