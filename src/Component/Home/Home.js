@@ -15,17 +15,7 @@ const Home = () => {
   </div>
 </div>
 
-<div className="hero min-h-screen bg-base-200">
-  <div className="hero-content flex-col lg:flex-row">
-    <img src="https://angfuzsoft.com/wordpress/acadu/wp-content/uploads/2022/10/about_v2_3_1.jpg" className="max-w-sm w-100 rounded-lg shadow-2xl" />
-    <div>
-      <h1 className="text-5xl font-bold">Summary Of The Course
-Scientific Calculation With Python</h1>
-      <p className="py-6">Description:Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.It is used for:web development (server-side),software development,mathematics The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular</p>
-      <button className="btn btn-active">See All Courses</button>
-    </div>
-  </div>
-</div>
+
 
 <div className="stats shadow">
   
