@@ -4,7 +4,16 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <div>
-     
+     <div className="hero min-h-screen" style={{ backgroundImage: `url("https://www.cae.net/wp-content/uploads/2015/11/consejos-sacar-maximo-partido-elearning.jpg")` }}>
+  <div className="hero-overlay bg-opacity-60"></div>
+  <div className="hero-content text-center text-neutral-content">
+    <div className="max-w-md">
+      <h1 className="mb-5 text-5xl font-bold">PHP Beginners – Become a PHP Master </h1>
+      <p className="mb-5">Conveniently build adaptive users with front-end human capital. Appropriately unleash team building technology for goal-oriented paradigms. Dynamically generate interoperable e-business vis-a-visgoal-oriented value</p>
+      <button className="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
 
 <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row">
